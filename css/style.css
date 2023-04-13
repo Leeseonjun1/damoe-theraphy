@@ -1,0 +1,35 @@
+@charset "utf-8";
+body{
+    font-family: "Maven Pro","Noto sams KR",sans-serif;
+    font-size: 14px;
+    color:#000;
+    /* background-image: url('../images/bg.png');/*속성하나하나 나열
+    background-color: white; */
+    background:url("../images/bg.png");  /*한번에 배경관련 속성을 나열*/
+}
+.d-none{
+    display:none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*이벤트 배너*/
+.event{
+    position:absolute;
+    right:5%;
+    top:15%;
+}
+.header-wrap{
+    max-width:1190px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.main-logo{
+    float: left;
+}
+.main-nav {
+    float: left;
+}
+.sns-links{
+    float: right;
+}
